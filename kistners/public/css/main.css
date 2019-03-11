@@ -1,0 +1,246 @@
+body {
+  background-position: left;
+  background-size: 100%;
+  background-repeat: repeat-y;
+  font-family: 'Arima Madurai', cursive;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #C9B66F;
+  background-image: url("./public/images/leafwood.jpg");
+}
+
+h1 {
+    font-family: Vivaldi;
+    color: #C9B66F;
+    font-size: 500%;
+    text-align: center;
+    margin: 30px;
+}
+
+h2 {
+    color: #C9B66F;
+    font-size: 150%;
+    text-align: center;
+    padding: 0;
+    margin: 30px 0px 0px;
+    border: 0;
+}
+
+h3 {
+    color: #C9B66F;
+    font-size: 300%;
+    font-family: Vivaldi;
+    text-align: center;
+    padding: 0;
+    margin: 30px;
+    border: 0;
+}
+
+h4 {
+    color: #C9B66F;
+    margin: 5px 0px 5px;
+}
+
+p {
+    color: #C9B66F;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+a {
+  color: #C9B66F;
+  text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#header-container {
+    background-image: radial-gradient(#83052B, #340211);
+    padding: 1% 0% 3%;
+} 
+
+
+#thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  margin: 7rem;
+}
+
+@media(max-width: 300px) {
+  #thumbnails {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1rem;
+  border: 3px solid #C9B66F;
+  border-radius: 5px;
+  box-shadow: black 5px 5px 5px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  font-style: bold;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card span {
+   text-align: center;
+}
+
+#footer-container {
+    background-image: radial-gradient(#83052B, #83052B, #340211);
+    align-content: center;
+    margin: -10px;
+    padding: 2% 0% 3%;
+}
+
+#contact-info{
+    text-align: center;
+    margin: 2% 0% 1%;
+}
+
+#store-hours {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+#holiday-list {
+    margin: 30px 0px 0px;
+    font-size: 14px;
+}
+
+#links-container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Arima Madurai', cursive;
+    color: #C9B66F;
+}
+
+#links-container div {
+    
+    padding: 0px 5% 1%;
+}
+
+#links-container ul {
+    font-size: 80%;
+    list-style: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#social-media {
+    display: block;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+
+#social-media img{
+    align-content: center;
+    width: 50px;
+    padding: 0px 10px 0px;
+    margin: 10px;
+}
+
+hr {
+    border: 2px solid #C9B66F;
+    border-radius: 3px;
+    display: block;
+    margin: 0.5em 10em 0.5em;
+    border-style: inset;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+}
+
+#navbar ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C9B66F;
+  display: flex;
+  justify-content: center;
+    
+}
+
+#navbar li {
+  float: left;
+  list-style: none;
+  color: #83052B;
+}
+
+#navbar .dropbtn {
+  font-size: 18px;
+}
+
+#navbar > li a, .dropbtn {
+  display: inline-block;
+  color: #83052B;
+  background-color: #C9B66F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar > li a:hover, .dropdown:hover .dropbtn {
+  background-image: linear-gradient(#4e0319, #83052B, #4e0319);
+  text-decoration: none;
+  color: #C9B66F;
+}
+
+li.dropdown {
+  display: inline-block;
+  background-color: #C9B66F;
+}
+
+.dropdown-content {
+  color: #83052B;
+  display: none;
+  position: absolute;
+  background-color: #C9B66F;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #83052B;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-image: linear-gradient(#4e0319, #83052B, #4e0319);
+    color: #C9B66F;
+}
+
+.dropbtn > a:hover {
+    background-color: #83052B;
+    color: #C9B66F;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,107 @@
+#daisy-container{
+    display: block;
+    text-align: center;
+}
+
+#daisy-container img{
+    border: 0px; 
+    border-radius: 0px;
+    box-shadow: 0px 0px;
+    width: 20%;
+    margin: 20px;
+}
+
+#facilities-list-container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Arima Madurai', cursive;
+    color: #C9B66F;
+}
+
+#facilities-list-container div {
+    padding: 2% 3% 1%;
+    text-align: left;
+}
+
+#facilities-list-container ul {
+    list-style: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 5% 10% 10%;
+    padding: 10px 0px 10px;
+    background-color: #F2EBD0;
+    border: 3px solid #C9B66F;
+}
+
+main *
+{
+    color: #83052B;
+}
+
+main p{
+    margin: 20px 0px 20px;
+}
+
+.middle-container{
+    text-align: center;
+    margin: 5%;
+}
+
+.left-container {
+    margin: 5%;
+    text-align: left;
+}
+
+.left-container li {
+    margin: 2% 0% 2%;
+}
+
+.left-title h2{
+    text-align: left;
+}
+
+.center-title h2 {
+    text-align: center;
+}
+
+
+
+main img{
+    border-radius: 50%;
+    border: 5px solid #C9B66F;
+    box-shadow: black 5px 5px 5px;
+    margin: 0;
+    padding: 0;
+}
+
+main p{
+    font-size: 18px;
+}
+
+.about-container {
+    margin: 10%;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+}
+.about-container img{
+    margin-bottom: 10%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+.img-right{
+    margin-left: 5%;
+    float: right;
+    clear: left;
+}
+
+.img-left{
+    margin-right: 5%;
+    float: left;
+    clear: right;
+}
