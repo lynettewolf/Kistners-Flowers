@@ -1,3 +1,5 @@
+This website mockup was created as part of the course curriculum for CIS 526 at Kansas State University. 
+
 ### Assignment Description
 For this assignment, imagine you are working for a web development studio.  Your company has been approached about crafting a new website for the local business, Kistner's Flowers.  Their [current website](https://www.kistnersflowers.com/) is not meeting their needs, and they would like to explore more options.  Your boss wants you to create a mockup that embraces the customer's primary concerns:
 * Clearly conveys the identity of Kistner’s flowers through branding and design elements
